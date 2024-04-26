@@ -200,5 +200,3 @@ spec:
     script: echo "$(context.task.name), step 98"
   - image: busybox
     script: echo "$(context.task.name), step 99"
-  - image: busybox
-    script: echo "$(context.task.name), step 100"
