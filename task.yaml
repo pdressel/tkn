@@ -5,4 +5,4 @@ metadata:
 spec:
   steps:
   - image: busybox
-    script: "step 1"
+    script: echo "step 1"
