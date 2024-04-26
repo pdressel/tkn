@@ -5,4 +5,4 @@ metadata:
 spec:
   steps:
   - image: busybox
-    script: echo "step 1"
+    script: echo "$(context.task.name), step 1"
