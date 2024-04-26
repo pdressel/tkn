@@ -5,4 +5,4 @@ metadata:
 spec:
   steps:
   - image: busybox
-    script: sleep 1; echo "$(params.taskName), step 1"
+    script: "step 1"
